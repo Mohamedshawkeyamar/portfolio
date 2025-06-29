@@ -38,7 +38,7 @@ h2 {
 
 /* === HERO SECTION === */
 .hero {
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(to right, #27374D, #526D82, #9DB2BF);
   color: #fff;
   padding: 100px 20px;
 }
@@ -65,7 +65,8 @@ h2 {
 }
 
 .hero .highlight {
-  color: #00d8ff;
+  color: #ad9a81;
+  font-size: 50PX;
 }
 
 .hero .image {
@@ -89,7 +90,7 @@ h2 {
   padding: 12px 24px;
   margin: 5px;
   border: none;
-  background: #00d8ff;
+  background: #27374D;
   color: white;
   border-radius: 4px;
   transition: 0.3s;
@@ -102,7 +103,7 @@ h2 {
 }
 
 .btn:hover {
-  background: #0099cc;
+  background: #b09d84;
   color: white;
 }
 
@@ -121,7 +122,7 @@ h2 {
 
 /* === SKILLS === */
 .skills {
-  background: #f0f0f0;
+  background: #526D82;
   padding: 60px 20px;
   overflow: hidden;
   position: relative;
@@ -169,7 +170,7 @@ h2 {
 
 /* === PROJECTS === */
 .projects {
-  background: #fff;
+  background: #9DB2BF;
 }
 
 .project-card {
@@ -222,7 +223,7 @@ h2 {
 
 .contact button {
   padding: 12px;
-  background: #00d8ff;
+  background: #b09f87;
   color: white;
   border: none;
   cursor: pointer;
@@ -231,7 +232,7 @@ h2 {
 }
 
 .contact button:hover {
-  background: #0099cc;
+  background: #b09f87;
 }
 
 /* === FOOTER === */
