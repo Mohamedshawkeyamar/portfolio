@@ -176,6 +176,49 @@ h2 {
   margin-bottom: 6px;
 }
 
+.skill-item .progress {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+  height: 12px; /* ⬅ زودنا العرض */
+  overflow: hidden;
+  margin-top: 6px;
+  position: relative;
+}
+
+.skill-item .fill {
+  height: 100%;
+  /* background: linear-gradient(to right, #d50000, #ff9800, #aeea00, #00c853);  */
+  border-radius: 10px 0 0 10px;
+  transition: width 0.6s ease-in-out;
+  position: relative;
+}
+.fill.low {
+  background: linear-gradient(to right, #d50000, #ff8a80); /* أحمر */
+}
+
+.fill.mid {
+  background: linear-gradient(to right, #ff9800, #ffeb3b); /* برتقالي */
+}
+
+.fill.high {
+  background: linear-gradient(to right, #00c853, #aeea00); /* أخضر */
+}
+
+
+.skill-item .fill::after {
+  content: attr(data-percent);
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 11px;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+
 /* الحركة */
 @keyframes scroll-left {
   0% {
@@ -188,7 +231,7 @@ h2 {
 
 /* === PROJECTS === */
 .projects {
-  background: #997a3a;
+  background: #1d3331;
 }
 
 .project-card {
