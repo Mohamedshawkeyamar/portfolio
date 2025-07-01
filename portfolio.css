@@ -110,7 +110,7 @@ h2 {
 
 /* === ABOUT === */
 .about {
-  background: #997a3a;
+  background: #1d3331;
   color: #ffffff;
 }
 
@@ -232,6 +232,7 @@ h2 {
 /* === PROJECTS === */
 .projects {
   background: #1d3331;
+  display: flex;
 }
 
 .project-card {
